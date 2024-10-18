@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Tutorial</title>
+</head>
+<body>
+	<form action="Registrar.php" method="POST">
+		<!-- Orden: <Input type="text" name="txtOrden"><br/> -->
+		Clave: <Input type="text" name="txtClave">  <br/>
+		Nombre: <Input type="text" name="txtNombre">  <br/>
+		Sexo:
+		<select name="cmbSexo">
+			<option value="Masculino">Masculino</option>
+			<option value="Femenino">Femenino</option>
+		</select><br/>
+
+		<input type="submit" value="Registrar" name="btnRegistrar">
+	</form>
+
+	
+
+	<p>****************************************************</p>
+
+
+
+	<form action= "VerRegistros.php" method= "POST">
+		<input type= "submit" value= "ver Registros" name= "btnRegistros">
+	</form>
+
+
+
+
+	<p>*****************************************************</p>
+
+	<form action="Eliminar.php" method= "POST">
+		clave: <input type= "text" name= "txtClave"> <br/>
+		<input type= "submit" value= "Eliminar Registro" name= "btnEliminar">
+	</form>
+
+
+
+
+	<p>*****************************************************</p>
+
+
+
+	<form action= "Actualizar.php" method="POST">
+		Clave: <input type= "text" name= "txtClave"> <br/>
+		Nombre: <input type= "text" name= "txtNombre"> <br/>
+		Sexo: <input  name= "cmbSexo">  <br/>
+
+		<input type= "submit" value= "Actualizar Registro" name= "btnActuralizar">
+	</form>
+	
+	
+
+	<p>*****************************************************</p>
+
+</body>
+</html>
